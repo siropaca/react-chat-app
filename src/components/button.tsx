@@ -5,7 +5,7 @@ interface ButtonProps {
   // ボタン名
   name: string;
   // ボタンをクリックした時のイベント
-  onClick: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+  onClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
   // 主ボタンか副ボタンかのフラグ
   primary?: boolean;
 }
